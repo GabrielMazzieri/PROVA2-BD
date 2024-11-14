@@ -58,7 +58,7 @@ CREATE table endereco ( -- Cria a tabela 'endereco'.
 );
 
 insert into endereco (rua, numero, pessoa_id) -- Insere um registro na tabela 'endereco'.
-VALUES ("R. Flores Gostosas", "10", 999);
+VALUES ("R. Flores", "10", 999);
 
 select * from pessoas; -- Seleciona todos os registros da tabela 'pessoas'.
 
